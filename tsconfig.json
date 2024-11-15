@@ -15,9 +15,7 @@
     "allowImportingTsExtensions": true,
 
     /* type checking */
-    "strict": false,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true
+    "strict": false
   },
   "include": ["src"]
 }
