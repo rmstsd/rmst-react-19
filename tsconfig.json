@@ -17,5 +17,5 @@
     /* type checking */
     "strict": false
   },
-  "include": ["src"]
+  "include": ["packages"]
 }
