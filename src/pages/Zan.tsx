@@ -5,7 +5,7 @@ import { useOptimistic, useRef, useState, useTransition } from 'react'
 const api = () => {
   const abs = new AbortController()
 
-  const p = fetch(`https://echo.apifox.com/delay/${random(0, 2)}`, { signal: abs.signal })
+  const p = fetch(`https://echo.apifox.com/delay/${random(0.3, 2)}`, { signal: abs.signal })
   p.abort = () => {
     abs.abort()
   }
