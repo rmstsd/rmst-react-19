@@ -1,12 +1,8 @@
 {
   "name": "rmst-react-19",
-  "private": true,
   "version": "1.0.0",
-  "scripts": {
-    "dev": "rsbuild dev",
-    "build": "rsbuild build",
-    "preview": "rsbuild preview"
-  },
+  "private": true,
+  "scripts": {},
   "dependencies": {
     "clsx": "^2.1.1",
     "es-toolkit": "^1.27.0",
